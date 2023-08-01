@@ -1,7 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
-    
+    margin: 0;
 }
 
 .header-container {
@@ -13,7 +13,7 @@ body {
 .header {
     display: flex;
     align-items: center;
-    
+    padding-top: 12px;
     
 }
 
@@ -44,7 +44,9 @@ body {
 
 .intro {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .intro-left {
@@ -52,10 +54,13 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: start;
+    padding: 100px;
 }
 
 .intro-title {
     color: white;
+    width: 320px;
+    height: auto;
 }
 
 .placeholder-image {
@@ -63,7 +68,9 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 18px;
-    
+    background-color: grey;
+    height: 250px;
+    width: 500px;
     
 }
 
@@ -73,7 +80,34 @@ body {
 
 }
 
-.sign-up-one {
+.intro-subtext {
+    width: 390px;
+    height: auto;
+    flex: 0 1 30px;
+}
+
+.sign-up-one, .sign-up-two {
     color: white;
     text-decoration: none;
+    background-color: #3882F6;
+    border-radius: 10%;
+    padding: 10px;
+    width: 96px;
+    margin-top: 16px;
+    text-align: center;
+}
+
+
+
+
+.sign-up-card {
+    background-color: #3882F6;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-two {
+    border: 2px solid white;
 }
