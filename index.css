@@ -106,6 +106,7 @@ body {
     align-items: center;
     border-radius: 10px;
     margin-top: 100px;
+    margin-bottom: 100px;
     width: 800px;
     height: auto;
     align-self: center;
@@ -168,6 +169,12 @@ body {
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
+    
+}
+
+.quote-container div {
+    max-width: 770px;
+    margin: 0 auto;
 }
 
 .quote {
@@ -181,4 +188,11 @@ body {
     margin: 0;
     font-size: 30px;
     font-weight: bold;
+}
+
+.footer {
+    color: white;
+    background-color: #1F2937;
+    padding: 36px;
+    text-align: center;
 }
